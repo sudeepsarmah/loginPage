@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    /* max-width: 80rem; */
+    border: 1px solid black;
+    padding: 1.25rem;
+    border-radius:0.6rem;
+}
+
+h1{
+    margin-bottom: 1.75rem;
+}
+
+input{
+    display: block;
+    font-size: 1.15rem;
+    border-radius: 0.35rem;
+    padding: 0.4rem;
+    width: 16rem;
+}
+
+.container .input span{
+    display: inline-block;
+    max-width: 20rem;
+    text-align: justify;
+    color: rgb(203, 45, 45);
+}
+
+label{
+    font-size: 1.4rem;
+    display: block;
+    margin:0.35rem 0;
+}
+
+
+.buttons{
+    margin-top: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.btn{
+    font-size: 1.2rem;
+    padding: 0.15rem 1.15rem;
+    border-radius: 0.25rem;
+    
+}
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0.8rem;
+    font-size: 2.2rem;
+    
+}
+
+.links a{
+    color: black;
+}
+
+.wrongPasswordAlert{
+    color: #ff6e6c;
+    max-width: 16rem;
+    border: 1px solid #ff6e6c;
+    margin-top: 0.8rem;
+    border-radius: 0.24rem;
+    padding: 0.24rem 0.4rem;
+    font-size: 1.2rem;
+}
+
+.correctPasswordAlert{
+    color: #00ebc7;
+    max-width: 16rem;
+    border: 1px solid #00ebc7;
+    margin-top: 0.8rem;
+    border-radius: 0.24rem;
+    padding: 0.24rem 0.4rem;
+    font-size: 1.2rem;
+}
